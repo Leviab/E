@@ -8,10 +8,10 @@ int main() {
 	cin >> d;
 	arr[0] = a; arr[1] = b; arr[2] = c; arr[3] = d;
 	max = arr[0];
-	if (a == c && b == d) { cout << 5; }
+	if (a == c && b == d) { cout << 0; }
 	else {
 
-		if (a * a + b * b + c * c > ((d * d) / 3)) {
+		if (a * a + b * b + c * c > ((d * d) / 2)) {
 			cout << 1;
 
 
