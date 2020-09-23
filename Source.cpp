@@ -1,7 +1,7 @@
 #include<iostream>;
 using namespace std;
 int main() {
-	float a = 0; float b, c, d; int arr[4]; int i = 0; int max; int k=0;
+	float a = 2; float b, c, d; int arr[4]; int i = 0; int max; int k=0;
 	cin >> a;
 	cin >> b;
 	cin >> c;
